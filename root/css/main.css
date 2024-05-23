@@ -1,0 +1,213 @@
+/* global variables*/
+:root {
+    
+    /* typography */
+    --headline-font: "Cairo", sans-serif;
+    --primary-font: "Montserrat", sans-serif;
+    --fw-b: 800;
+    --fw-m: 500;
+    --fw-l: 300;
+    
+    /* colors */
+    --primary-color: #ff9f0e;
+    --secondary-color: #e9e6dc;
+    --neutral-lt-color: #e9e6dc;
+}
+
+
+html {
+    font-size: 10px;
+    font-family: var(--primary-font);
+}
+
+h1, h2 {
+    font-family: var(--headline-font);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: var(--fw-b);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: var(--fw-m);
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 1.2rem;
+    
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    
+}
+
+
+
+/* header */
+.menuBar {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+header h1 {
+    margin-right: auto;
+}
+
+
+/* navigation */
+nav {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);     
+}
+
+nav ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+nav ul li {
+    border-bottom: solid 1px var(--neutral-lt-color);
+}
+
+nav ul a {
+    display: block;
+    padding: 1.2em 1.5em;
+    color: var(--neutral-lt-color);
+    text-decoration: none;
+    letter-spacing: .05em;
+    font-size: 1.6rem;}
+
+nav ul a:hover {
+    background-color: var(--primary-color);
+    color: #2671bc;
+}
+
+
+/* toggle nav w. checkbox hack and animation */
+.menuIcon, .menuIconClose {
+    font-size: 2.6rem;
+    color: var(--primary-color);
+}
+
+.menuIconClose {
+    display: none;
+}
+
+#checkbox {
+    margin-left: auto;
+    display: none;
+}
+
+#checkbox:checked ~ nav ul {
+    max-height: 290px;
+    transition: all .5s;
+}
+
+#checkbox:checked ~ label .menuIcon {
+    display: none;
+}
+
+#checkbox:checked ~ label .menuIconClose {
+    display: block;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+legend {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    background-color: #fff;
+    padding: .15rem;
+    border: 1px dashed var(--secondary-color);
+}
+
+.formControl {
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: gray;
+    padding: .5rem 0;
+    margin: .5rem 0;
+    border: solid .25px #aaaaaa;
+    border-radius: 5px;
+    width: 98%;
+    display: block;
+}
+
+.submit {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: bold;
+    width: 275px;
+    padding: .5em;
+    margin-bottom: 4rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: .5em;
+    justify-self: center;
+    align-self: center;
+}
+
+label {
+    font-size: 1.6rem;
+    padding-top: 16px;
+}
+
+/* radio buttons and check boxes*/
+.radCheck {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.radCheck li {
+    padding: 10px 0px;
+}
+
+.radCheck input {
+    height: 14px;
+    width: 14px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+footer i {
+    font-size: 2.6rem;
+}
+
+.storeAddress {
+    display: none;
+}
