@@ -146,6 +146,15 @@ nav ul a:hover {
     align-items: center;
 }
 
+.imgBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.photoCards {
+    display: flex;
+}
+
 /* form */
 form {
     display: flex;
