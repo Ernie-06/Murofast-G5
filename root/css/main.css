@@ -33,6 +33,7 @@ h2 {
     font-size: 2rem;
     font-weight: var(--fw-m);
     margin: 1rem 0;
+    text-align: center;
 }
 
 p {
@@ -131,8 +132,9 @@ nav ul a:hover {
 /* main section of homepage */
 .pText {
     background-color: var(--secondary-color);
-    padding: 20px;
+    padding: 20px 20px 10px;
     line-height: 2;
+    margin-bottom: 10px;
 }
 
 .sideBar {
