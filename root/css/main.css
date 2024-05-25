@@ -44,6 +44,7 @@ p {
 img {
     margin-bottom: 1rem;
     border: solid 1px #000;
+    width: 100%;
 }
 
 main {
