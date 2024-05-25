@@ -61,9 +61,16 @@ main {
 }
 
 header h1 {
+    color: var(--secondary-color);
     margin-right: auto;
 }
 
+header {
+    background: url("../images/saw.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 100px;
+    padding: 1.5em;
+}
 
 /* navigation */
 nav {
