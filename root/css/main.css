@@ -53,46 +53,6 @@ main {
     
 }
 
-/*employee css*/
-
-.employees p {
-	text-align: center;
-}
-.employees {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main article {
-	margin-bottom: 2rem;
-	border-bottom: solid 1px #ccc;
-	padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-/*    align-items: center;*/
-}
-
-picture {
-	display: grid;
-	justify-items: center;
-}
-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main article:last-of-type {
-	border-bottom: none;
-}
-
-figcaption {
-	color: #adadad;
-	font: italic 1.2rem Georgia, serif;
-/*	text-align: center;*/
-}
-
 /* header */
 .menuBar {
     display: flex;
@@ -195,7 +155,44 @@ nav ul a:hover {
     padding: 10px;
 }
 
-/* form */
+/* our employees page styling */
+.employees p {
+	text-align: center;
+}
+.employees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main article {
+	margin-bottom: 2rem;
+	border-bottom: solid 1px #ccc;
+	padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+picture {
+	display: grid;
+	justify-items: center;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main article:last-of-type {
+	border-bottom: none;
+}
+
+figcaption {
+	color: #adadad;
+	font: italic 1.2rem var(--primary-font), sans-serif;
+}
+
+/* purchase order form page styling*/
 form {
     display: flex;
     flex-direction: column;
