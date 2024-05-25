@@ -56,10 +56,25 @@ main {
 
 /*employee css*/
 
+.employees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 main article {
 	margin-bottom: 2rem;
 	border-bottom: solid 1px #ccc;
 	padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+/*    align-items: center;*/
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main article:last-of-type {
@@ -69,7 +84,7 @@ main article:last-of-type {
 figcaption {
 	color: #adadad;
 	font: italic 1.2rem Georgia, serif;
-	text-align: center;
+/*	text-align: center;*/
 }
 
 /* header */
