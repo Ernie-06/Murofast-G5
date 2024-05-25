@@ -54,7 +54,23 @@ main {
     
 }
 
+/*employee css*/
 
+main article {
+	margin-bottom: 2rem;
+	border-bottom: solid 1px #ccc;
+	padding: 2rem 0;
+}
+
+main article:last-of-type {
+	border-bottom: none;
+}
+
+figcaption {
+	color: #adadad;
+	font: italic 1.2rem Georgia, serif;
+	text-align: center;
+}
 
 /* header */
 .menuBar {
@@ -247,3 +263,7 @@ footer i {
 .storeAddress {
     display: none;
 }
+
+
+
+
