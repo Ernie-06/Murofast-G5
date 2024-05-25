@@ -164,6 +164,10 @@ nav ul a:hover {
 }
 
 /* our employees page styling */
+.backButton {
+	font-size: 20px;
+	color: red;
+}
 .employees p {
 	text-align: center;
 }
