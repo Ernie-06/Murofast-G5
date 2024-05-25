@@ -344,6 +344,22 @@ label {
 }
 /*end faq style*/
 
+/*products LP style*/
+.products {
+    background-color: var(--secondary-color);
+    margin-top: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+   display: grid;
+    grid-row-gap: 2px;
+}
+
+.prodLink {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
 
 /* footer */
 footer {
