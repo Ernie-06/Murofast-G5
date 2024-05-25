@@ -2,25 +2,44 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../css/reset.css" rel="stylesheet" type="text/css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="../css/main.css" rel="stylesheet" type="text/css">
 	<title>Our Employees</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
 	<header>
-		<h1>About Murofast Family</h1>
-		<p>Murofast de México, S.A. of C.V. is a company with more than 20 years of providing its clients in Tijuana, Baja California, the best offer in all types of light materials for construction and metal profiles, as well as screws, tools and professional advice focused on the use of materials for the construction.</p>
+		<section class="menuBar">
+			<h1>Murofast</h1>
+			<input type="checkbox" id="checkbox">
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="pages/customerPortal.html">Customer Portal</a></li>
+					<li><a href="pages/products.html">Products</a></li>
+					<li><a href="pages/contactUs.html">Contact Us</a></li>
+					<li><a href="pages/about.html">About Us</a></li>
+				</ul>
+			</nav>
+
+			<label for="checkbox">
+				<i class="fa-solid fa-bars menuIcon"></i>
+				<i class="fa-solid fa-xmark menuIconClose"></i>
+			</label>
+		</section>
 	</header>
 
 
 	<main>
 		<section>
-			<h1>The Workers</h1>
+		<h2>OUR EMPLOYEES</h2>
 			<article>
 				<h2>Pablo Murillo</h2>
 				<p> Meet a machinist working in our metal profiles cutting deaprtment. Pablo has been with Murofast for 18 years as a professional steel cutter. <a href="#">Learn more</a></p>
@@ -63,7 +82,18 @@
 	</main>
 
 	<footer>
-		<p>&copy; 2021 Business Name</p>
+		<section class="footIcons">
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-x-twitter"></i>
+			<i class="fa-brands fa-instagram"></i>
+		</section>
+		<p>Copyright &copy;2024 all rights reserved</p>
+		<section class="storeAddress">
+			<p>Av. Juan Ojeda Robles 125</p>
+			<p>Col. Buena Vista</p>
+			<p>Tijuana, Baja California</p>
+			<p>664-607-1400</p>
+		</section>
 	</footer>
 </body>
 
