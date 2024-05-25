@@ -63,6 +63,7 @@ main {
 header h1 {
     color: var(--secondary-color);
     margin-right: auto;
+    text-shadow: .5rem .5rem .6rem black;
 }
 
 header {
