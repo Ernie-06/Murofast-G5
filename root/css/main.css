@@ -39,7 +39,6 @@ h2 {
 p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    
 }
 
 img {
@@ -56,6 +55,9 @@ main {
 
 /*employee css*/
 
+.employees p {
+	text-align: center;
+}
 .employees {
     display: flex;
     flex-direction: column;
@@ -71,6 +73,10 @@ main article {
 /*    align-items: center;*/
 }
 
+picture {
+	display: grid;
+	justify-items: center;
+}
 figure {
     display: flex;
     flex-direction: column;
