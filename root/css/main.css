@@ -364,17 +364,17 @@ label {
 
 /* footer */
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     color: var(--secondary-color);
     background-color: var(--primary-color);
     height: 70px;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 footer i {
-    font-size: 2.6rem;
+    font-size: 2rem;
 }
 
 .storeAddress {
