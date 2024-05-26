@@ -14,7 +14,7 @@
     --neutral-lt-color: #e9e6dc;
 }
 
-
+/* general formating for basic HTML elements*/
 html {
     font-size: 10px;
     font-family: var(--primary-font);
@@ -55,18 +55,21 @@ main {
 }
 
 /* header */
+/* class selector type */
 .menuBar {
     display: flex;
     align-items: center;
     gap: .5em;
 }
 
+/*descendant selector type*/
 header h1 {
     color: var(--secondary-color);
     margin-right: auto;
     text-shadow: .5rem .5rem .6rem black;
 }
 
+/* element selector type */
 header {
     background: url("../images/saw300.jpg") no-repeat bottom;
     background-size: cover;
@@ -108,6 +111,7 @@ nav ul a:hover {
 
 
 /* toggle nav w. checkbox hack and animation */
+/* grouped sibling selector type */
 .menuIcon, .menuIconClose {
     font-size: 2.6rem;
     color: var(--secondary-color);
@@ -117,11 +121,13 @@ nav ul a:hover {
     display: none;
 }
 
+/* id selector type */
 #checkbox {
     margin-left: auto;
     display: none;
 }
 
+/* input pseudo-class selctor*/
 #checkbox:checked ~ nav ul {
     max-height: 290px;
     transition: all .5s;
@@ -294,6 +300,7 @@ label {
     font-size: 14px;
 }
 
+/* user action pseudo-class selector */
 .question:hover {
     background-color: #ff9f0e;
 }
