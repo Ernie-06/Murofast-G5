@@ -68,7 +68,7 @@ header h1 {
 }
 
 header {
-    background: url("../images/saw.jpg") no-repeat bottom;
+    background: url("../images/saw300.jpg") no-repeat bottom;
     background-size: cover;
     min-height: 100px;
     padding: 1.5em;
