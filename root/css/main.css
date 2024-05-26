@@ -1,4 +1,40 @@
-/* global variables*/
+/******************************************************
+
+                TABLE OF CONTENTS
+    ------------------------------------------
+        1. Project Details
+        2. Global Variables and Styles
+        3. Header, Navigation, and Toggle Checkbox Hack
+        4. 
+        5. 
+        6. 
+        7. 
+
+*******************************************************/
+
+
+/************************************************
+1. Project Details
+
+Project: Murofast Website, COMM672 Final Project
+Authors: Group 5 -  Sebastian X. Munoz-Medina
+                    Ernaldo Becerra
+                    Kevin Hutchison
+
+COLOR GUIDE
+-----------
+
+
+TYPOGRAPHY GUIDE
+----------------
+
+
+*************************************************/
+
+
+/************************************************
+2. Global Variables and Styles
+*************************************************/
 :root {
     
     /* typography */
@@ -14,7 +50,6 @@
     --neutral-lt-color: #e9e6dc;
 }
 
-/* general formating for basic HTML elements*/
 html {
     font-size: 10px;
     font-family: var(--primary-font);
@@ -54,7 +89,12 @@ main {
     
 }
 
-/* header */
+
+/************************************************
+3. Header, Navigation, and Toggle Checkbox Hack
+*************************************************/
+
+/**** header ****/
 /* class selector type */
 .menuBar {
     display: flex;
@@ -77,7 +117,7 @@ header {
     padding: 1.5em;
 }
 
-/* navigation */
+/****** navigation ******/
 nav {
     position: absolute;
     top: 80px;
@@ -110,7 +150,7 @@ nav ul a:hover {
 }
 
 
-/* toggle nav w. checkbox hack and animation */
+/****** toggle nav w. checkbox hack and animation ******/
 /* grouped sibling selector type */
 .menuIcon, .menuIconClose {
     font-size: 2.6rem;
