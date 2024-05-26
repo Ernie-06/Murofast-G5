@@ -5,10 +5,11 @@
         1. Project Details
         2. Global Variables and Styles
         3. Header, Navigation, and Toggle Checkbox Hack
-        4. 
-        5. 
-        6. 
-        7. 
+        4. Elements of Main for index.html
+        5. Elements of Main for OurEmployees.html
+        6. Form Elements for purchaseOrder.html
+        7. Elements of Main for faq.html
+        8. Elements of Main for products.html
 
 *******************************************************/
 
@@ -172,7 +173,10 @@ nav ul a:hover {
     display: block;
 }
 
-/* main section of homepage */
+
+/************************************************
+4. Elements of Main for index.html
+*************************************************/
 .pText {
     background-color: var(--secondary-color);
     padding: 20px 20px 10px;
@@ -201,7 +205,10 @@ nav ul a:hover {
     padding: 10px;
 }
 
-/* our employees page styling */
+
+/************************************************
+5. Elements of Main for OurEmployees.html
+*************************************************/
 .backButton {
 	font-size: 20px;
 	color: red;
@@ -242,7 +249,10 @@ figcaption {
 	font: italic 1.2rem var(--primary-font), sans-serif;
 }
 
-/* purchase order form page styling*/
+
+/************************************************
+6. Form Elements for purchaseOrder.html
+*************************************************/
 form {
     display: flex;
     flex-direction: column;
@@ -313,7 +323,10 @@ label {
     width: 14px;
 }
 
-/*faq css*/
+
+/************************************************
+7. Elements of Main for faq.html
+*************************************************/
 #container {
     width: 70%; 
     margin:auto;
@@ -381,9 +394,11 @@ label {
     justify-content: space-between;
     margin-top: 30px;
 }
-/*end faq style*/
 
-/*products LP style*/
+
+/************************************************
+8. Elements of Main for products.html
+*************************************************/
 .products {
     background-color: var(--secondary-color);
     margin-top: 20px;
