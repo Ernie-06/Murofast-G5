@@ -441,6 +441,28 @@ footer i {
     display: none;
 }
 
+/* ------- medium screen media query ------- */
+/* ---------------------------------------- */
+@media screen and (min-width: 700px) {
+    header.homePage {
+        background-image: url("../images/saw600.jpg")
+    }
+    
+    header {
+        background-image: url("../images/saw600.jpg")
+    }
+}
 
+/* ------- large screen media query ------- */
+/* ---------------------------------------- */
+@media screen and (min-width: 900px) {
+    header.homePage {
+        background-image: url("../images/saw900.jpg")
+    }
+    
+    header {
+        background-image: url("../images/saw900.jpg")
+    }
+}
 
 
