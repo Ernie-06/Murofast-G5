@@ -152,7 +152,7 @@ nav ul a:hover {
 /****** toggle nav w. checkbox hack and animation ******/
 /* grouped sibling selector type */
 .menuIcon, .menuIconClose {
-    font-size: 2.6rem;
+    font-size: 3rem;
     color: var(--secondary-color);
 }
 
