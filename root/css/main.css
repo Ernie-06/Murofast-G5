@@ -63,6 +63,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 2rem;
+    font-weight: var(--fw-m);
+    margin: 1rem 0;
+    text-align: center;
+}
+
 p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
@@ -99,7 +106,15 @@ header h1 {
     color: var(--secondary-color);
     margin-right: auto;
     text-shadow: .5rem .5rem .6rem black;
+    font-size: 4rem;
 }
+.prodHead h1 {
+    color: var(--secondary-color);
+    margin-right: auto;
+    text-shadow: .5rem .5rem .6rem black;
+    font-size: 4rem;
+}
+
 
 /* element selector type */
 header.homePage {
@@ -114,6 +129,17 @@ header {
     background-size: cover;
     min-height: 150px;
     padding: 1.5em;
+}
+.prodHead {
+    background: url("../images/products%20-%20LP%20hero%20-%20hard%20hats.jpg") no-repeat bottom;
+    background-size: cover;
+    min-height: 100px;
+    padding: 1.5em;
+}
+
+.cartoon {
+    width: 120px;
+    border: none;
 }
 
 /****** navigation ******/
@@ -154,12 +180,22 @@ nav ul a:hover {
 .menuIcon, .menuIconClose {
     font-size: 3rem;
     color: var(--secondary-color);
+    margin-bottom: 10px
+}
+
+.menuIcons, .menuIconCloses {
+    font-size: 4rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px
 }
 
 .menuIconClose {
     display: none;
 }
 
+.menuIconCloses {
+    display: none;
+}
 /* id selector type */
 #checkbox {
     margin-left: auto;
@@ -464,5 +500,35 @@ footer i {
         background-image: url("../images/metalShop900.jpg")
     }
 }
+
+/*metals page style*/
+.metals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.metals aside {
+  grid-column: 1 / span 1;
+}
+
+.metals h2,
+.metals p {
+  grid-column: 2 / span 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* For responsiveness */
+/*
+@media (max-width: 768px) {
+  .metals {
+    grid-template-columns: 1fr;
+  }
+}
+*/
 
 
