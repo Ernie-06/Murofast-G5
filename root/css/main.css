@@ -102,6 +102,13 @@ header h1 {
 }
 
 /* element selector type */
+header.homePage {
+    background: url("../images/saw300.jpg") no-repeat bottom;
+    background-size: cover;
+    min-height: 150px;
+    padding: 1.5em;
+}
+
 header {
     background: url("../images/saw300.jpg") no-repeat bottom;
     background-size: cover;
