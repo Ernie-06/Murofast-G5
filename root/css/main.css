@@ -110,7 +110,7 @@ header.homePage {
 }
 
 header {
-    background: url("../images/saw300.jpg") no-repeat bottom;
+    background: url("../images/metalShop300.jpg") no-repeat center;
     background-size: cover;
     min-height: 150px;
     padding: 1.5em;
@@ -449,7 +449,7 @@ footer i {
     }
     
     header {
-        background-image: url("../images/saw600.jpg")
+        background-image: url("../images/metalShop600.jpg")
     }
 }
 
@@ -461,7 +461,7 @@ footer i {
     }
     
     header {
-        background-image: url("../images/saw900.jpg")
+        background-image: url("../images/metalShop900.jpg")
     }
 }
 
