@@ -435,16 +435,6 @@ label {
 /************************************************
 8. Elements of Main for products.html
 *************************************************/
-.products {
-    margin-top: 10px;
-    margin-bottom: 20px;
-   display: grid;
-    grid-row-gap: 2px;
-}
-.prdHead {
-    margin-top: 20px;
-}
-
 .prodLink {
     display: grid;
     background-color: var(--secondary-color);
@@ -453,11 +443,6 @@ label {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-column-gap: 20px;
-}
-
-.prodLink img{
-   box-shadow: 2px 2px 2px gray; 
-    margin-bottom: 0px;
 }
 
 /************************************************
@@ -608,7 +593,10 @@ footer i {
     grid-template-columns: repeat(3, 2fr); 
      grid-template-rows: auto;
     }
-        
+    .products {
+        display: flex;
+        flex-direction: row;
+    }    
 }
 
 /* ------- large screen media query ------- */
