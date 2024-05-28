@@ -73,6 +73,8 @@ h3 {
 p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+        line-height: 2;
+
 }
 
 img {
@@ -107,6 +109,7 @@ header h1 {
     margin-right: auto;
     text-shadow: .5rem .5rem .6rem black;
     font-size: 4rem;
+    padding: 30px; 
 }
 .prodHead h1 {
     color: var(--secondary-color);
@@ -129,9 +132,9 @@ header {
     background-size: cover;
     min-height: 150px;
     padding: 1.5em;
+    box-shadow: 2px 3px 6px 2px gray;
 }
 
-/*box-shadow: 2px 3px 6px 2px gray;*/
 
 /****** navigation ******/
 nav {
@@ -197,7 +200,6 @@ nav ul a:hover {
 #checkbox:checked ~ label .menuIconClose {
     display: block;
 }
-
 
 /************************************************
 4. Elements of Main for index.html
@@ -425,10 +427,13 @@ label {
 8. Elements of Main for products.html
 *************************************************/
 .products {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
    display: grid;
     grid-row-gap: 2px;
+}
+.prdHead {
+    margin-top: 20px;
 }
 
 .prodLink {
@@ -454,10 +459,6 @@ label {
     margin-top: 10px;
     padding: 30px;
 }
-.drywall p {
-    line-height: 2;
-    text-align: justify
-}
 
 .drywall h3 {
     text-align: left;
@@ -477,9 +478,64 @@ label {
 *************************************************/
 .map {
     display: flex;
-    justify-content: center;
-    padding-top: 10px;
+    flex-direction: row;
+    grid-column-gap: 9px;
+    padding-left: 7px;
 } 
+.map p {
+    padding-top: 10px;
+    line-height: 5px;
+}
+.map iframe {
+    width: 60%;
+}
+
+.contactUs {
+    padding-top: 40px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact img {
+    border: none;
+}
+/************************************************
+11. Elements of Main for metals.html
+*************************************************/
+.metals {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px
+}
+.metals p {
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+/************************************************
+11. Elements of Main for insulation.html
+*************************************************/
+.insulation {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.insulation img {
+    width: 60%;
+    justify-content: center;
+}
+
+.insulation p {
+    padding: 10px;
+}
 
 /* footer */
 footer {
@@ -525,34 +581,6 @@ footer i {
     }
 }
 
-/*metals page style*/
-.metals {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
 
-.metals aside {
-  grid-column: 1 / span 1;
-}
-
-.metals h2,
-.metals p {
-  grid-column: 2 / span 1;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* For responsiveness */
-/*
-@media (max-width: 768px) {
-  .metals {
-    grid-template-columns: 1fr;
-  }
-}
-*/
 
 
