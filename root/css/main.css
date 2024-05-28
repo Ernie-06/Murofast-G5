@@ -64,10 +64,10 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: var(--fw-m);
-    margin: 1rem 0;
-    text-align: center;
+    text-align:center;
+    margin-bottom: 5px;
 }
 
 p {
@@ -107,6 +107,7 @@ header h1 {
     margin-right: auto;
     text-shadow: .5rem .5rem .6rem black;
     font-size: 4rem;
+    font-variant: small-caps;
 }
 .prodHead h1 {
     color: var(--secondary-color);
@@ -133,12 +134,12 @@ header {
 .prodHead {
     background: url("../images/products%20-%20LP%20hero%20-%20hard%20hats.jpg") no-repeat bottom;
     background-size: cover;
-    min-height: 100px;
     padding: 1.5em;
+    box-shadow: 2px 3px 6px 2px gray; 
 }
 
 .cartoon {
-    width: 120px;
+    width: 140px;
     border: none;
 }
 
@@ -443,20 +444,70 @@ label {
 8. Elements of Main for products.html
 *************************************************/
 .products {
-    background-color: var(--secondary-color);
     margin-top: 20px;
-    padding: 30px;
     margin-bottom: 20px;
    display: grid;
     grid-row-gap: 2px;
 }
 
 .prodLink {
-  display: grid;
+    display: grid;
+    background-color: var(--secondary-color);
+    padding: 25px;
+    text-align: center;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    grid-column-gap: 20px;
 }
 
+.prodLink img{
+   box-shadow: 2px 2px 2px gray; 
+    margin-bottom: 0px;
+}
+
+.prdHead {
+    margin-top: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 3.3rem;
+    text-align: left;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+
+/************************************************
+8. Elements of Main for drywall.html
+*************************************************/
+.drywall {
+    display: grid;
+    margin-top: 10px;
+    padding: 30px;
+}
+.drywall p {
+    line-height: 2;
+    text-align: justify
+}
+
+.drywall h3 {
+    text-align: left;
+}
+
+.drywallHeader {
+    background: url("../images/products%20LP%20hero%20-%20supplies%20on%20floor.jpg") no-repeat bottom;
+    background-size: cover;
+    min-height: 100px;
+    padding: 1.5em;
+    box-shadow: 2px 3px 6px 2px gray; }
+
+
+.cmpBld {
+    width:100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 10px;
+}
 
 /* footer */
 footer {
@@ -476,6 +527,7 @@ footer i {
 .storeAddress {
     display: none;
 }
+
 
 /* ------- medium screen media query ------- */
 /* ---------------------------------------- */
