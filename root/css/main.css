@@ -87,7 +87,7 @@ p {
 
 img {
     margin-bottom: 1rem;
-    border: solid 1px #000;
+/*    border: solid 1px #000;*/
     width: 100%;
     box-shadow: 2px 3px 6px 2px gray;
 }
@@ -608,6 +608,7 @@ footer i {
     grid-template-columns: repeat(3, 2fr); 
      grid-template-rows: auto;
     }
+        
 }
 
 /* ------- large screen media query ------- */
