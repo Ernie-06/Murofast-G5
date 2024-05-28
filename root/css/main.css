@@ -479,8 +479,10 @@ label {
 .map {
     display: flex;
     flex-direction: row;
+    background-color: var(--secondary-color);
     grid-column-gap: 9px;
     padding-left: 7px;
+    padding: 15px
 } 
 .map p {
     padding-top: 10px;
