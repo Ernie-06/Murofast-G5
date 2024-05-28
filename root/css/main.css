@@ -169,12 +169,6 @@ nav ul a:hover {
 /****** toggle nav w. checkbox hack and animation ******/
 /* grouped sibling selector type */
 .menuIcon, .menuIconClose {
-    font-size: 3rem;
-    color: var(--secondary-color);
-    margin-bottom: 10px
-}
-
-.menuIcons, .menuIconCloses {
     font-size: 4rem;
     color: var(--secondary-color);
     margin-bottom: 10px
@@ -184,9 +178,6 @@ nav ul a:hover {
     display: none;
 }
 
-.menuIconCloses {
-    display: none;
-}
 /* id selector type */
 #checkbox {
     margin-left: auto;
@@ -480,6 +471,15 @@ label {
     grid-column-gap: 20px;
     padding: 10px;
 }
+
+/************************************************
+9. Elements of Main for contactUs.html
+*************************************************/
+iframe {
+    max-width: 450px;
+    max-height: 150px;
+    padding-top: 10px;
+} 
 
 /* footer */
 footer {
