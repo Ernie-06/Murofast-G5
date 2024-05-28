@@ -107,7 +107,6 @@ header h1 {
     margin-right: auto;
     text-shadow: .5rem .5rem .6rem black;
     font-size: 4rem;
-    font-variant: small-caps;
 }
 .prodHead h1 {
     color: var(--secondary-color);
