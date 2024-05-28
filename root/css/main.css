@@ -68,6 +68,7 @@ h2 {
     font-weight: var(--fw-m);
     margin: 1rem 0;
     text-align: center;
+    padding-top: 15px;
 }
 
 h3 {
@@ -88,6 +89,7 @@ img {
     margin-bottom: 1rem;
     border: solid 1px #000;
     width: 100%;
+    box-shadow: 2px 3px 6px 2px gray;
 }
 
 main {
@@ -485,18 +487,20 @@ label {
 *************************************************/
 .map {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     background-color: var(--secondary-color);
     grid-column-gap: 9px;
     padding-left: 7px;
-    padding: 15px
+    padding: 25px
 } 
 .map p {
     padding-top: 10px;
     line-height: 5px;
 }
 .map iframe {
-    width: 60%;
+    padding-top: 30px;
+    width: 100%;
 }
 
 .contactUs {
@@ -513,6 +517,7 @@ label {
 
 .contact img {
     border: none;
+    box-shadow: none;
 }
 /************************************************
 11. Elements of Main for metals.html
@@ -588,6 +593,20 @@ footer i {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-gap: 0 3rem;
+    }
+    
+.pText { grid-area: a; }
+.sideBar { grid-area: b; }
+.photoCards { grid-area: c; }
+.indexGrid {
+  display: grid;
+  grid-gap: 10px;
+    margin-top: 45px;
+  grid-template-areas:
+    "b a a" 
+    "b c c";
+    grid-template-columns: repeat(3, 2fr); 
+     grid-template-rows: auto;
     }
 }
 
