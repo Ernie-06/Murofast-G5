@@ -447,7 +447,7 @@ label {
 }
 
 /************************************************
-8. Elements of Main for drywall.html
+9. Elements of Main for drywall.html
 *************************************************/
 .drywall {
     display: grid;
@@ -473,11 +473,11 @@ label {
 }
 
 /************************************************
-9. Elements of Main for contactUs.html
+10. Elements of Main for contactUs.html
 *************************************************/
-iframe {
-    max-width: 450px;
-    max-height: 150px;
+.map {
+    display: flex;
+    justify-content: center;
     padding-top: 10px;
 } 
 
