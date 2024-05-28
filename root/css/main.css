@@ -10,6 +10,13 @@
         6. Form Elements for purchaseOrder.html
         7. Elements of Main for faq.html
         8. Elements of Main for products.html
+        9. Elements of Main for drywall.html
+        10. Elements of Main for contactUs.html
+        11. Elements of Main for metals.html
+        12. Elements of Main for insulation.html
+        13. Elements for footer
+        14. Media queries for responsiveness
+
 
 *******************************************************/
 
@@ -521,7 +528,7 @@ label {
 }
 
 /************************************************
-11. Elements of Main for insulation.html
+12. Elements of Main for insulation.html
 *************************************************/
 .insulation {
     display: flex;
@@ -539,7 +546,10 @@ label {
     padding: 10px;
 }
 
-/* footer */
+
+/************************************************
+13. Elements for footer
+*************************************************/
 footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -558,6 +568,10 @@ footer i {
     display: none;
 }
 
+
+/************************************************
+14. Media queries for responsiveness
+*************************************************/
 
 /* ------- medium screen media query ------- */
 /* ---------------------------------------- */
