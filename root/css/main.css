@@ -87,7 +87,6 @@ p {
 
 img {
     margin-bottom: 1rem;
-/*    border: solid 1px #000;*/
     width: 100%;
     box-shadow: 2px 3px 6px 2px gray;
 }
@@ -430,7 +429,7 @@ label {
     justify-content: space-between;
     margin-top: 30px;
 }
-
+.p { padding-left: 10px;}
 
 /************************************************
 8. Elements of Main for products.html
@@ -558,7 +557,6 @@ footer i {
     display: none;
 }
 
-
 /************************************************
 14. Media queries for responsiveness
 *************************************************/
@@ -593,10 +591,13 @@ footer i {
     grid-template-columns: repeat(3, 2fr); 
      grid-template-rows: auto;
     }
-    .products {
+    .prodLink {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }    
+    .prodLink img {
+        width: 220px;
+    }
 }
 
 /* ------- large screen media query ------- */
@@ -608,6 +609,10 @@ footer i {
     
     header {
         background-image: url("../images/metalShop900.jpg")
+    }
+     .products {
+        display: flex;
+        flex-direction: row;
     }
 }
 
