@@ -81,7 +81,7 @@ h3 {
 p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-        line-height: 2;
+    line-height: 2;
 
 }
 
@@ -472,10 +472,7 @@ label {
 .map {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: var(--secondary-color);
-    grid-column-gap: 9px;
-    padding-left: 7px;
     padding: 25px
 } 
 .map p {
@@ -494,9 +491,9 @@ label {
 .contact {
     display: flex;
     flex-direction: column;
-    margin-bottom: 70px;
-    justify-content: center;
+    margin-bottom: 30px;
     align-items: center;
+    text-align: center;
 }
 
 .contact img {
@@ -509,11 +506,14 @@ label {
 .metals {
     display: flex;
     flex-direction: column;
-    padding-top: 20px
+    padding-top: 20px;
+    align-content: center;
 }
 .metals p {
     padding-left: 10px;
-    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 /************************************************
@@ -535,9 +535,26 @@ label {
     padding: 10px;
 }
 
+/************************************************
+13. Elements for customerPortal.html
+*************************************************/
+button {
+    margin-bottom: 20px;
+    background-color: #096191;
+    opacity: 80%;
+    font-family: var(--primary-font);
+    border: none;
+    width: 200px;
+    height: 30px;
+   margin-left: 10px;
+}
+.button {
+    text-decoration: none;
+    color: white;
+}
 
 /************************************************
-13. Elements for footer
+14. Elements for footer
 *************************************************/
 footer {
     display: grid;
@@ -547,6 +564,7 @@ footer {
     height: 70px;
     align-items: center;
     padding: 0 10px;
+    margin-top: 40px;
 }
 
 footer i {
@@ -558,7 +576,7 @@ footer i {
 }
 
 /************************************************
-14. Media queries for responsiveness
+15. Media queries for responsiveness
 *************************************************/
 
 /* ------- medium screen media query ------- */
@@ -592,7 +610,7 @@ footer i {
         grid-template-columns: 1fr 2fr;
         grid-gap: 0 3rem;
     }
-    
+      
     .pText { grid-area: a; }
     .sideBar { grid-area: b; }
     .photoCards { grid-area: c; }
@@ -606,6 +624,9 @@ footer i {
         grid-template-columns: repeat(3, 2fr); 
         grid-template-rows: auto;
     }
+    .sideBar img {
+        margin-top: 11px;
+    }
 
     .prodLink {
         display: flex;
@@ -613,6 +634,13 @@ footer i {
     }    
     .prodLink img {
         width: 220px;
+    }
+    .metals {
+        display: flex;
+        flex-direction: row;
+    }
+    .metals img {
+        justify-content: center;
     }
 }
 
@@ -630,6 +658,10 @@ footer i {
         display: flex;
         flex-direction: row;
     }
+    .metals p {
+        padding: 10px;
+    }
+    .mtl1 p { margin: 30px;}
 }
 
 
