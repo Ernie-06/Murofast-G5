@@ -328,7 +328,6 @@ legend {
 .submit {
     background-color: var(--primary-color);
     color: #ffffff;
-    font-weight: bold;
     width: 275px;
     padding: .5em;
     margin-bottom: 4rem;
