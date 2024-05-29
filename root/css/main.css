@@ -561,7 +561,7 @@ footer {
     grid-template-columns: 1fr 2fr;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    height: 70px;
+    height: 95px;
     align-items: center;
     padding: 0 10px;
     margin-top: 40px;
@@ -662,6 +662,20 @@ footer i {
         padding: 10px;
     }
     .mtl1 p { margin: 30px;}
+    
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .storeAddress {
+        display: grid;
+        
+    }
+    
+    .storeAddress p {
+        line-height: auto;
+        margin-bottom: 0;
+    }
 }
 
 
