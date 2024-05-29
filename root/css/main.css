@@ -667,6 +667,14 @@ footer i {
         display: flex;
         flex-direction: row;
     }
+	.employees {
+		display: flex;
+		flex-direction: row;
+		gap: 9rem;
+	}
+	.empImg {
+		border: none;
+	}
     .metals p {
         padding: 10px;
     }
