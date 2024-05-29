@@ -540,13 +540,14 @@ label {
 *************************************************/
 button {
     margin-bottom: 20px;
-    background-color: #096191;
-    opacity: 80%;
+    background-color: var(--primary-color);
+    color: #ffffff;    
     font-family: var(--primary-font);
     border: none;
     width: 200px;
     height: 30px;
-   margin-left: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 .button {
     text-decoration: none;
@@ -664,12 +665,15 @@ footer i {
     .mtl1 p { margin: 30px;}
     
     footer {
+        grid-column-gap: 570px;
         grid-template-columns: 1fr 1fr 1fr;
     }
     
+    .footIcons {
+        padding-left: 30px;
+    }
     .storeAddress {
         display: grid;
-        
     }
     
     .storeAddress p {
