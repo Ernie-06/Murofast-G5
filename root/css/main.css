@@ -636,12 +636,21 @@ footer i {
     .prodLink img {
         width: 220px;
     }
+    
     .metals {
         display: flex;
         flex-direction: row;
     }
     .metals img {
         justify-content: center;
+    }
+    .insulation {
+        display: flex;
+        flex-direction: row;
+    }
+    .insulation img {
+        justify-content: center;
+
     }
 }
 
@@ -665,7 +674,7 @@ footer i {
     .mtl1 p { margin: 30px;}
     
     footer {
-        grid-column-gap: 570px;
+        grid-column-gap: 150px;
         grid-template-columns: 1fr 1fr 1fr;
     }
     
@@ -679,6 +688,10 @@ footer i {
     .storeAddress p {
         line-height: auto;
         margin-bottom: 0;
+        line-height: 1.5rem;
+    }
+    .pText img {
+        width: 720px;
     }
 }
 
