@@ -119,12 +119,6 @@ header h1 {
     font-size: 4rem;
     padding: 30px; 
 }
-.prodHead h1 {
-    color: var(--secondary-color);
-    margin-right: auto;
-    text-shadow: .5rem .5rem .6rem black;
-    font-size: 4rem;
-}
 
 
 /* element selector type */
@@ -454,8 +448,7 @@ label {
 *************************************************/
 .drywall {
     display: grid;
-    margin-top: 10px;
-    padding: 30px;
+    padding: 0px 30px;
 }
 
 .drywall h3 {
@@ -504,15 +497,18 @@ label {
     border: none;
     box-shadow: none;
     margin-bottom: 0px;
+    width: 79%;
+    padding-top: 0px;
 }
 
 .faq {
     font-weight: bold; 
-    margin-bottom: 20px
+    margin-bottom: 49px
 }
 
 .faq i {
-    font-size: 2rem;
+    font-size: 3.5rem;
+    padding-bottom: 10px
 }
 /************************************************
 11. Elements of Main for metals.html
@@ -646,27 +642,36 @@ footer i {
     .prodLink {
         display: flex;
         flex-direction: column;
-    }    
+}
+    
     .prodLink img {
         width: 220px;
-    }
+}
     
     .metals {
         display: flex;
         flex-direction: row;
-        gap: 10rem;
+        gap: 7rem;
     }
+    
     .metals img {
         justify-content: center;
-        width: 550px;
-        height:200px;
+        width: 100%;
     }
-    .insulation,  {
+    .mtl1 img {
+        height: 200px;
+    }
+    
+    .insulation  {
         display: flex;
         flex-direction: row;
     }
     .insulation img {
-        justify-content: center;
+        margin-top: 45px;
+        width: 65%;
+    }
+    .insulImg1 {
+        margin-bottom: 148px;
     }
     .map {
         display: flex;
