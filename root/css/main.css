@@ -677,6 +677,11 @@ footer i {
         display: flex;
         flex-direction: row;
     }
+    
+    .faq i {
+    font-size: 3.5rem;
+    padding-bottom: 10px
+}
 }
 
 /* ------- large screen media query ------- */
