@@ -174,6 +174,7 @@ nav ul a {
 nav ul a:hover {
     background-color: var(--primary-color);
     color: #2671bc;
+    opacity: 60%;
 }
 
 
@@ -499,6 +500,10 @@ label {
     border: none;
     box-shadow: none;
 }
+
+.faq {
+    font-weight: bold; 
+}
 /************************************************
 11. Elements of Main for metals.html
 *************************************************/
@@ -643,13 +648,16 @@ footer i {
     .metals img {
         justify-content: center;
     }
-    .insulation {
+    .insulation,  {
         display: flex;
         flex-direction: row;
     }
     .insulation img {
         justify-content: center;
-
+    }
+    .map {
+        display: flex;
+        flex-direction: row;
     }
 }
 
@@ -700,6 +708,18 @@ footer i {
     .pText img {
         width: 720px;
     }
+    .back {
+        margin-top: 20px;  
+    }
+    .map p {
+    padding-top: 10px;
+    line-height: 5px;
+}
+.map iframe {
+    padding-top: 0px;
+    width: 100%;
+    margin-left: 20px;
+}
 }
 
 
