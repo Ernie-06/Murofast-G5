@@ -496,7 +496,6 @@ label {
 .contact {
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
     align-items: center;
     text-align: center;
 }
@@ -504,10 +503,16 @@ label {
 .contact img {
     border: none;
     box-shadow: none;
+    margin-bottom: 0px;
 }
 
 .faq {
     font-weight: bold; 
+    margin-bottom: 20px
+}
+
+.faq i {
+    font-size: 2rem;
 }
 /************************************************
 11. Elements of Main for metals.html
