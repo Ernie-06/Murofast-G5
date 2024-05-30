@@ -429,7 +429,12 @@ label {
     justify-content: space-between;
     margin-top: 30px;
 }
-.p { padding-left: 10px;}
+.p { text-align: center;}
+
+
+.faq {
+     text-decoration: none;  
+}
 
 /************************************************
 8. Elements of Main for products.html
@@ -722,6 +727,9 @@ footer i {
     padding-top: 0px;
     width: 100%;
     margin-left: 20px;
+}
+#container {
+    width: 45%; 
 }
 }
 
