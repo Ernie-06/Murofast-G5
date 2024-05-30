@@ -644,9 +644,12 @@ footer i {
     .metals {
         display: flex;
         flex-direction: row;
+        gap: 10rem;
     }
     .metals img {
         justify-content: center;
+        width: 550px;
+        height:200px;
     }
     .insulation,  {
         display: flex;
